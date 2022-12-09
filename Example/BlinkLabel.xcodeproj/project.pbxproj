@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0E214C2CD487AC4E5C81F836 /* Pods_BlinkLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2494292D42A4B9DAECB74C15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2494292D42A4B9DAECB74C15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		56A72D76E4E39C3BF61A0B1A /* Pods-BlinkLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-BlinkLabel_Example/Pods-BlinkLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BlinkLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* BlinkLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6F3EE1A33FC69CBFD86D1ABA /* BlinkLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BlinkLabel.podspec; path = ../BlinkLabel.podspec; sourceTree = "<group>"; };
+		6F3EE1A33FC69CBFD86D1ABA /* BlinkLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlinkLabel.podspec; path = ../BlinkLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FBF88679C4242DC8C0654EE /* Pods_BlinkLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9840876668D7E914407A17D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9840876668D7E914407A17D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E2557DD3A4B01F2628B295C8 /* Pods-BlinkLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkLabel_Tests/Pods-BlinkLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2683496E0A112AF73F6225B /* Pods-BlinkLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-BlinkLabel_Tests/Pods-BlinkLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB90CA77D8166F346F2C1F6C /* Pods-BlinkLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-BlinkLabel_Example/Pods-BlinkLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				E2557DD3A4B01F2628B295C8 /* Pods-BlinkLabel_Tests.debug.xcconfig */,
 				E2683496E0A112AF73F6225B /* Pods-BlinkLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
